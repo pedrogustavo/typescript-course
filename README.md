@@ -1,16 +1,17 @@
 # typescript-course
 > https://www.youtube.com/playlist?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_
 
-Para rodar o projeto é necessário ter o [typescript instalado](https://www.typescriptlang.org/download) na máquina e rodar o seguinte comando:
+Para rodar o projeto execute o comando `npm install` para realizar a instalação das dependências.
+Em seguida rode o comando:
 
 ```sh
-tsc --watch
+npm start
 ```
 
 O projeto já contém um `tsconfig.json` com as configurações básicas setadas.
 
-Para poder verificar o retorno enquanto codifica, utilize o [nodemon](https://www.npmjs.com/package/nodemon)
+Para poder verificar o retorno enquanto codifica, utilize o comando:
 
 ```sh
-nodemon dist/
+npm run nodemon
 ```
