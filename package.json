@@ -1,0 +1,28 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "Willian Justen typescript course",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "poststart": "nodemon dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrogustavo/typescript-course.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Pedro Gustavo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrogustavo/typescript-course/issues"
+  },
+  "homepage": "https://github.com/pedrogustavo/typescript-course#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.4"
+  }
+}
