@@ -4,7 +4,7 @@ var isOpen;
 isOpen = true;
 // string ('foo', "foo", `foo`)
 var message;
-message = "foo " + isOpen;
+message = "foo ".concat(isOpen);
 // number (int, float, hex, binary)
 var total;
 total = 0xff0;

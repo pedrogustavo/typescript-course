@@ -1,9 +1,9 @@
 "use strict";
 function logDetails(uid, item) {
-    console.log("A product with " + uid + " has a title as " + item);
+    console.log("A product with ".concat(uid, " has a title as ").concat(item));
 }
 function logInfo(uid, user) {
-    console.log("An user with " + uid + " has a name as " + user);
+    console.log("An user with ".concat(uid, " has a name as ").concat(user));
 }
 logDetails(123, 'sapato');
 logDetails('123', 'sapato');

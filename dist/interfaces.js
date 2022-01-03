@@ -6,7 +6,7 @@ var tlou = {
     genre: 'action',
     // platform: ['PS3', 'PS4'],
     getSimilars: function (title) {
-        console.log("Similar games to " + title + ": Uncharted, A Plague Tale, Metro");
+        console.log("Similar games to ".concat(title, ": Uncharted, A Plague Tale, Metro"));
     }
 };
 console.log(tlou.title);

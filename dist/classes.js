@@ -21,7 +21,7 @@ var UserAccount = /** @class */ (function () {
         this.age = age;
     }
     UserAccount.prototype.logDetails = function () {
-        console.log("The player " + this.name + " is " + this.age + " years old");
+        console.log("The player ".concat(this.name, " is ").concat(this.age, " years old"));
     };
     return UserAccount;
 }());
@@ -49,7 +49,7 @@ var CharAccount = /** @class */ (function (_super) {
         configurable: true
     });
     CharAccount.prototype.logCharDetails = function () {
-        console.log("The player " + this.name + " is " + this.age + " and has the char " + this.nickname + " at level " + this.level);
+        console.log("The player ".concat(this.name, " is ").concat(this.age, " and has the char ").concat(this.nickname, " at level ").concat(this.level));
     };
     return CharAccount;
 }(UserAccount));
